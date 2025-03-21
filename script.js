@@ -103,21 +103,21 @@ if (gebruikAbility) {
 //Red
 function veranderRed() {
     eersteP.textContent = "Cursed technique reversal: Red!"
-    afbeelding.src = "images/gojoRed.png"
+    afbeelding.src = "images/gojored.png"
 }
 buttonRed.addEventListener('click', veranderRed)
 
 //Blue
 function veranderBlue() {
     eersteP.textContent = "Cursed technique amplification: Blue!"
-    afbeelding.src = "images/gojoBlue.png"
+    afbeelding.src = "images/gojoblue.png"
 }
 buttonBlue.addEventListener('click', veranderBlue)
 
 //Purple
 function veranderPurple() {
     eersteP.textContent = "Hollow technique: Purple!"
-    afbeelding.src = "images/gojoPurple.png"
+    afbeelding.src = "images/gojopurple.png"
 }
 buttonPurple.addEventListener('click', veranderPurple)
 
