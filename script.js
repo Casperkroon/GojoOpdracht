@@ -27,11 +27,11 @@ headerVerander()
 //Afbeelding naar base state//
 
 let afbeelding = document.querySelector("img")
-afbeelding.src = "images/gojoidle.png"
+afbeelding.src = "images/gojoIdle.png"
 
 function baseState() {
     eersteP.textContent = "Status: Idle"
-    afbeelding.src = "images/gojoidle.png"
+    afbeelding.src = "images/gojoIdle.png"
 }
 
 baseState()
