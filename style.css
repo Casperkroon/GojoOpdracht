@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    transform: scale(0.95);
+    overflow: hidden;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    padding: 0.1em;
+    font-size: 20px;
+}
+
+.output {
+    font-weight: bold;
+}
+
+#gojo {
+    display: flex;
+    justify-content: center;
+    margin-top: -5em;
+}
+img {
+    height: 100%;
+    width: auto;
+}
+
+/*BUTTONS*//*BUTTONS*//*BUTTONS*//*BUTTONS*//*BUTTONS*//*BUTTONS*/
+/*BUTTONS*//*BUTTONS*//*BUTTONS*//*BUTTONS*//*BUTTONS*//*BUTTONS*/
+#buttons, #randombutton, #flashbutton {
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all .05s ease-in-out;
+}
+
+button {
+    background-color: #008cff; 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    margin:2em 2em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px black;
+    font-weight: bold;
+}
+
+.red {
+    background-color: red;
+}
+.purple {
+    background-color: blueviolet;
+}
+.flash {
+    background-color: #242323;
+    color: red;
+    text-shadow: 1px 1px rgb(66, 5, 5);
+    font-size: 25px;
+}
+.random, .refresh {
+    background-color: darkblue;
+    font-weight: bold;
+    font-size: 25px;
+}
+.refresh {
+    background-color: yellow;
+    color: black;
+}
+.hidden {
+    display: none;
+}
+
+.grijs {
+    opacity: 50;
+}
+/*EINDE BUTTONS*//*EINDE BUTTONS*//*EINDE BUTTONS*//*EINDE BUTTONS*//*EINDE BUTTONS*/
+/*EINDE BUTTONS*//*EINDE BUTTONS*//*EINDE BUTTONS*//*EINDE BUTTONS*//*EINDE BUTTONS*/
